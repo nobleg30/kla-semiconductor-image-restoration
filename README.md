@@ -45,7 +45,7 @@ These are measurements from the Colab GPU used during development, **not H100 be
 
 ```text
 .
-├── evaluation.py
+├── run.py
 ├── model.py
 ├── best_model.pt
 ├── requirements.txt
@@ -65,13 +65,13 @@ pip install -r requirements.txt
 Positional form:
 
 ```bash
-python evaluation.py /path/to/test_inputs /path/to/output_dir
+python run.py /path/to/test_inputs /path/to/output_dir
 ```
 
 Named form:
 
 ```bash
-python evaluation.py \
+python run.py \
     --input_dir /path/to/test_inputs \
     --output_dir /path/to/output_dir
 ```
